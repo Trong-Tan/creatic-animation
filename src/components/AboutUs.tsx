@@ -11,8 +11,9 @@ export default function AboutUs({ className }: Props) {
   const { ref, inView } = useInView({
     triggerOnce: true
   })
+
   return (
-    <div className={twMerge('flex pl-20 pr-56', className)} id="about-us" ref={ref}>
+    <div className={twMerge('flex px-12', className)} id="about-us" ref={ref}>
       {inView && <img src={aboutUs} alt="about-us" className="w-1/2 animate-fade-right" />}
       {inView && (
         <div className="flex gap-6 flex-col w-1/2 animate-fade-left">

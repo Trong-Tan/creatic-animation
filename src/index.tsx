@@ -7,7 +7,7 @@ import './style.css'
 function App() {
   return (
     <div className="text-xl">
-      <Header className="px-70 mt-9" />
+      <Header className="px-12 mt-9" />
       <Welcome className="mt-46" />
       <AboutUs className="mt-70" />
     </div>
