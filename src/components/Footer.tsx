@@ -37,7 +37,7 @@ export default function Footer({ className }: Props) {
           <p className="text-xl">
             Lorem ipsum Neque porro quisquam est qui do lorem ipsum <br /> quia dolor sit amet, Neque porro elit NeDque{' '}
           </p>
-          <div className="flex gap-6 mt-5 mb-46 mb-16">
+          <div className="flex gap-6 mt-5 mb-46 pb-16">
             {iconFooters.map(iconFooter => (
               <img src={iconFooter} alt="" />
             ))}
