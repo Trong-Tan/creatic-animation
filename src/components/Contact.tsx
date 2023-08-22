@@ -46,7 +46,7 @@ export default function Contact({ className }: Props) {
         </div>
       )}
       {inView && (
-        <div className="p-9  rounded-3xl ">
+        <div className="p-9  rounded-3xl bg-coner">
           <form
             action=""
             className="grid grid-flow-row bg-[#11182a] gap-5 w-auto h-auto p-9 ml-9 my-32 mr-80 rounded-3xl animate-fade-up"

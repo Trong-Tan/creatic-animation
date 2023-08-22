@@ -17,7 +17,7 @@ export default function AboutUs({ className }: Props) {
     <div className={twMerge('flex px-68 relative', className)} id="about-us" ref={ref}>
       {inView && (
         <>
-          <div className="absolute bg-gradient-to-r from-[rgba(109,150,252,0.3)] to-[rgba(21,21,21,0)] h-full w-96 left-[-100px]"></div>
+          <div className="absolute bg-gradient-to-r from-[rgba(109,150,252,0.3)] to-[rgba(21,21,21,0)] h-full w-1/3 left-[-100px]"></div>
           <img src={aboutUs} alt="about-us" className=" w-1/2 animate-fade-right" />
         </>
       )}

@@ -5,3 +5,7 @@
 .bg-liner {
   background: linear-gradient(100deg, #6d96fc3e 0%, rgba(21, 21, 21, 0.35) 100%);
 }
+
+.bg-gradient-192 {
+  background: linear-gradient(20deg, rgba(55, 112, 255, 0.157) 0%, rgba(0, 0, 0, 0) 100%);
+}

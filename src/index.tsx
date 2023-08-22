@@ -9,6 +9,7 @@ import OurWork from './components/OurWork'
 import WhyUs from './components/WhyUs'
 import OurClient from './components/OurClients'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <WhyUs className="mt-28" />
       <OurClient className="mt-48" />
       <Contact />
+      <Footer className="mt-32" />
     </div>
   )
 }

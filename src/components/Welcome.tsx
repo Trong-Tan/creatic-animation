@@ -9,6 +9,7 @@ interface Props {
 export default function Welcome({ className }: Props) {
   return (
     <div className={twMerge(className, 'px-68')}>
+      <div className="absolute bg-gradient-to-l from-[rgba(109,150,252,0.3)] to-[rgba(21,21,21,0)] h-full w-1/3 left-[1199px] top-28"></div>
       <div className="w-1/2 z-40 animate-fade-right ">
         <p className="text-primary ">Welcome to creatic</p>
         <p className="text-7xl mt-11 font-bold">
