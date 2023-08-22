@@ -9,9 +9,9 @@ interface Props {
 export default function Welcome({ className }: Props) {
   return (
     <div className={twMerge(className, 'px-12')}>
-      <div className="w-1/2 z-40 animate-fade-right">
-        <p className="text-primary">Welcome to creatic</p>
-        <p className="text-7xl mt-11">
+      <div className="w-1/2 z-40 animate-fade-right ">
+        <p className="text-primary ">Welcome to creatic</p>
+        <p className="text-7xl mt-11 font-bold">
           WE ARE <span className="text-primary">CREATIVE </span> DESIGN AGENCY
         </p>
         <div className="bg-primary block w-36 h-1 my-11" />
@@ -21,7 +21,7 @@ export default function Welcome({ className }: Props) {
         </p>
         <Button className="mt-11">GET IN TOUCH</Button>
       </div>
-      <img src={welcome} alt="welcome" className="h-200 absolute -z-20 mt-56 right-0 top-0" />
+      <img src={welcome} alt="welcome" className="h-200 absolute -z-20 mt-56 right-0 top-0 " />
     </div>
   )
 }

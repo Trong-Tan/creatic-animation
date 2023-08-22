@@ -12,14 +12,20 @@ export default function AboutUs({ className }: Props) {
     triggerOnce: true
   })
 
+  console.log(ref)
   return (
-    <div className={twMerge('flex px-12', className)} id="about-us" ref={ref}>
-      {inView && <img src={aboutUs} alt="about-us" className="w-1/2 animate-fade-right" />}
+    <div className={twMerge('flex px-12 relative', className)} id="about-us" ref={ref}>
+      {inView && (
+        <>
+          <div className="absolute bg-gradient-to-r from-[rgba(109,150,252,0.3)] to-[rgba(21,21,21,0)] h-full w-96 left-[-100px]"></div>
+          <img src={aboutUs} alt="about-us" className=" w-1/2 animate-fade-right" />
+        </>
+      )}
       {inView && (
         <div className="flex gap-6 flex-col w-1/2 animate-fade-left">
           <p className="text-primary">ABOUT US</p>
-          <p className="text-5xl">
-            We Bring <span className="text-primary">Creative </span> Ideas <br /> To life.
+          <p className="text-5xl font-[700]">
+            We Bring <span className="text-primary ">Creative </span> Ideas <br /> To life.
           </p>
           <div className="block h-1 w-24 bg-white" />
           <p className="text-primary"> We love Creating </p>
