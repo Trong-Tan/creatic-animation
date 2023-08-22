@@ -46,10 +46,10 @@ export default function Contact({ className }: Props) {
         </div>
       )}
       {inView && (
-        <div className="p-9  rounded-3xl">
+        <div className="p-9  rounded-3xl ">
           <form
             action=""
-            className="grid grid-flow-row bg-[#11182a] gap-5 w-auto h-auto p-9 ml-9 my-32 mr-80 rounded-3xl"
+            className="grid grid-flow-row bg-[#11182a] gap-5 w-auto h-auto p-9 ml-9 my-32 mr-80 rounded-3xl animate-fade-up"
           >
             <label htmlFor="" className="font-normal font-pop text-base">
               YOUR NAME

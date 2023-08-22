@@ -24,7 +24,7 @@ export default function OurServices({ className }: Props) {
 
   console.log(ref)
   return (
-    <div className={twMerge('flex px-12 relative', className)} id="our-service" ref={ref}>
+    <div className={twMerge('flex px-68 relative', className)} id="our-service" ref={ref}>
       {inView && (
         <div className="flex gap-6 flex-col animate-fade-right">
           <p className="text-primary">OUR SERVICES</p>

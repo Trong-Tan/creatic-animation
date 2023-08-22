@@ -8,7 +8,7 @@ interface Props {
 
 export default function Welcome({ className }: Props) {
   return (
-    <div className={twMerge(className, 'px-12')}>
+    <div className={twMerge(className, 'px-68')}>
       <div className="w-1/2 z-40 animate-fade-right ">
         <p className="text-primary ">Welcome to creatic</p>
         <p className="text-7xl mt-11 font-bold">

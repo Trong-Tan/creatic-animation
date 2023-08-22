@@ -13,7 +13,7 @@ import Contact from './components/Contact'
 function App() {
   return (
     <div className="text-xl font-pops">
-      <Header className="px-12 mt-9" />
+      <Header className="px-68 mt-9" />
       <Welcome className="mt-46" />
       <AboutUs className="mt-70" />
       <OurServices className="mt-60" />
