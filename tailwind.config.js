@@ -5,6 +5,9 @@ module.exports = {
   content: ['./**/*.{html,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        pops: ['Poppins']
+      },
       colors: {
         primary: '#6D95FC'
       },
