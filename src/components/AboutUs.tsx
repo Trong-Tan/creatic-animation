@@ -14,14 +14,14 @@ export default function AboutUs({ className }: Props) {
 
   console.log(ref)
   return (
-    <div className={twMerge('flex xl:px-9  2xl:px-68 relative', className)} id="about-us" ref={ref}>
+    <div className={twMerge('flex  2xl:px-68 relative', className)} id="about-us" ref={ref}>
       <img
         src={aboutUs}
         alt="about-us"
         className={`absolute w-full bg-gradient-liner sm:w-1/2 xl:left-0 -z-20 ${inView ? 'animate-fade-right' : ''}`}
       />
       <div
-        className={`flex flex-col justify-center items-center text-center md:justify-start md:items-start md:text-left gap-6 xl:mt-36 w-full xl:ml-auto sm:w-1/2  ${
+        className={`flex flex-col justify-center items-center text-center sm:justify-start sm:items-start sm:text-left gap-6 px-5 xl:mt-36 w-full sm:ml-auto sm:w-1/2  ${
           inView ? 'animate-fade-left' : ''
         }`}
       >

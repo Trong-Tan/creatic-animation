@@ -30,7 +30,7 @@ export default function Contact({ className }: Props) {
       <div
         className={`flex gap-6 flex-col lg:w-1/2 ${
           inView ? 'animate-fade-left' : ''
-        } mt-20 xl:mt-28 2xl:mt-44 lg:mb-52 lg:ml-28 2xl:ml-72 lg:mr-28`}
+        } mt-20 px-5 xl:mt-28 2xl:mt-44 lg:mb-52 lg:ml-28 2xl:ml-72 lg:mr-28`}
       >
         <div className="flex justify-center items-center md:justify-start md:items-start flex-col gap-6">
           <p className="text-5xl font-[700] text-center">
@@ -56,7 +56,7 @@ export default function Contact({ className }: Props) {
       <div className="flex justify-center items-center xl:w-1/2  bg-gradient-liner-coner-contact">
         <form
           action=""
-          className={`grid grid-flow-row bg-[#11182a] gap-5 w-full  h-auto p-9 xl:mr-44 2xl:ml-9 2xl:my-32 2xl:mr-80 rounded-3xl ${
+          className={`grid grid-flow-row bg-[#11182a] gap-5 w-full mx-5  h-auto p-9 xl:mx-0 xl:mr-44  2xl:my-32 2xl:mr-80 rounded-3xl ${
             inView ? 'animate-fade-up' : ''
           }`}
         >

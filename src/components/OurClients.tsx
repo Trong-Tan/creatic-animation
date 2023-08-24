@@ -17,11 +17,17 @@ export default function OurClient({ className }: Props) {
 
   console.log(ref)
   return (
-    <div className={twMerge('flex ', className)} id="our-client" ref={ref}>
+    <div
+      className={twMerge('flex flex-col lg:flex-row justify-center items-center text-center', className)}
+      id="our-client"
+      ref={ref}
+    >
       <div className=" hidden lg:block w-full">
         <img src={OurClient1} className={`w-full h-full ${inView ? 'animate-fade-right' : ''}`} alt="" />
       </div>
-      <div className={`flex flex-col just text-center w-fit xl:px-24 pt-16 ${inView ? 'animate-fade-up' : ''}`}>
+      <div
+        className={`flex flex-col justify-center text-center w-fit xl:px-24 pt-16 ${inView ? 'animate-fade-up' : ''}`}
+      >
         <div className={`flex flex-col justify-center items-center text-center `}>
           <p className="text-5xl font-bold ">
             WHAT<span className="text-primary"> OUR </span>
@@ -46,7 +52,7 @@ export default function OurClient({ className }: Props) {
             </div>
           </div>
         </div>
-        <Button className="mt-11 w-fit">VIEW ALL TESTIMONIALS </Button>
+        <Button className="mt-11 w-fit ">VIEW ALL TESTIMONIALS </Button>
       </div>
       <div className="w-full">
         <img

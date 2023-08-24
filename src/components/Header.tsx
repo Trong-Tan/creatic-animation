@@ -35,7 +35,7 @@ const NAV_LINKS = [
 
 export default function Header({ className }: Props) {
   return (
-    <div className={twMerge('flex justify-between xl:px-9 2xl:68', className)}>
+    <div className={twMerge('flex justify-between px-5 md:px-9 2xl:68', className)}>
       <div className="text-center">
         <p className="text-primary font-semibold text-4xl xl:text-6xl">CREATIC</p>
         <p className="text-xs md:text-sm">CREATIVE AGENCY</p>

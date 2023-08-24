@@ -23,7 +23,7 @@ export default function AboutUs({ className }: Props) {
       ref={ref}
     >
       <div
-        className={`flex flex-col justify-center items-center text-center md:justify-start md:items-start md:text-left gap-6  pr-16 w-fit ${
+        className={`flex flex-col justify-center items-center text-center px-11 2xl:px-0 md:justify-start md:items-start md:text-left gap-6  pr-16 w-fit ${
           inView ? 'animate-fade-up' : ''
         }`}
       >

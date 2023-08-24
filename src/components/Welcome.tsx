@@ -13,9 +13,9 @@ export default function Welcome({ className }: Props) {
   })
 
   return (
-    <div className={twMerge(className, 'xl:px-9 2xl:px-68')}>
+    <div className={twMerge(className, 'px-5 md:px-9 2xl:68')}>
       <div
-        className={`sm:w-1/2 z-40 flex flex-col justify-center relative items-center md:justify-start md:items-start md:text-left text-center animate-fade-right`}
+        className={`md:w-1/2 z-40 flex flex-col justify-center relative items-center md:justify-start md:items-start md:text-left text-center animate-fade-right`}
       >
         <p className="text-primary ">Welcome to creatic</p>
         <p className="text-4xl lg:text-5xl font-bold mt-11">

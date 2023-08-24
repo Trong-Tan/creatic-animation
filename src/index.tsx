@@ -18,14 +18,14 @@ function App() {
       Màn của a sơn 2xl
       */}
       <Header className=" mt-9" />
-      <Welcome className="mt-20 lg:mt-46" />
-      <AboutUs className="mt-20 md:mt-48 lg:mt-70" />
-      <OurServices className="mt-20 md:mt-48 lg:mt-60" />
+      <Welcome className="mt-32 lg:mt-46" />
+      <AboutUs className="mt-32 md:mt-48 lg:mt-70" />
+      <OurServices className="mt-32 md:mt-48 lg:mt-60" />
       <SectionDetail className="mt-36" />
       <OurWork className="mt-36 " />
       <WhyUs className="pt-56 pb-20 lg:pb-48" />
       <OurClient className="" />
-      <Contact />
+      <Contact className="mt-36" />
       <Footer className="mt-32" />
     </div>
   )
