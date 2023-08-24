@@ -15,7 +15,7 @@ export default function Welcome({ className }: Props) {
   return (
     <div className={twMerge(className, 'xl:px-9 2xl:px-68')}>
       <div
-        className={`sm:w-1/2 z-40 flex flex-col justify-center items-center md:justify-start md:items-start md:text-left text-center animate-fade-right`}
+        className={`sm:w-1/2 z-40 flex flex-col justify-center relative items-center md:justify-start md:items-start md:text-left text-center animate-fade-right`}
       >
         <p className="text-primary ">Welcome to creatic</p>
         <p className="text-4xl lg:text-5xl font-bold mt-11">
@@ -31,11 +31,7 @@ export default function Welcome({ className }: Props) {
         </Button>
       </div>
       {/* <div className="absolute bg-gradient-liner  h-200  right-0 top-0"> */}
-      <img
-        src={welcome}
-        alt="welcome"
-        className=" absolute h-auto md:h-96 lg:h-200 -z-20 w-full md:w-3/4 mt-32 sm:mt-56 right-0 top-0 "
-      />
+      <img src={welcome} alt="welcome" className=" absolute h-fit w-fit mt-32 sm:mt-56 right-0 top-0 " />
       {/* </div> */}
     </div>
   )
