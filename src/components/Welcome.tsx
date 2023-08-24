@@ -31,7 +31,11 @@ export default function Welcome({ className }: Props) {
         </Button>
       </div>
       {/* <div className="absolute bg-gradient-liner  h-200  right-0 top-0"> */}
-      <img src={welcome} alt="welcome" className=" absolute h-fit w-fit mt-32 sm:mt-56 right-0 top-0 " />
+      <img
+        src={welcome}
+        alt="welcome"
+        className=" absolute h-1/3 w-1/3 sm:h-fit sm:w-fit mt-32 sm:mt-56 right-0 top-0 "
+      />
       {/* </div> */}
     </div>
   )
