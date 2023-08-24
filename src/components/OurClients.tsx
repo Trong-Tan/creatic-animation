@@ -35,7 +35,7 @@ export default function OurClient({ className }: Props) {
             Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet, Neque porro elit
           </p>
           <div className="flex p-9 bg-[#11182a] rounded-3xl ">
-            <img src={Ellipse} className="" alt="" />
+            <img src={Ellipse} className="w-[100px] h-[100px] rounded-full" alt="" />
             <div className="flex flex-col ml-4 justify-center items-center">
               <p className="text-white text-xl font-bold">Carol Chaves</p>
               <p className="text-primary text-sm font-light">@caroles.gmail.com</p>
