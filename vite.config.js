@@ -3,10 +3,5 @@ import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
-  plugins: [react(), tsconfigPaths()],
-  build: {
-    rollupOptions: {
-      external: ['@/assets/images/ellipse.png']
-    }
-  }
+  plugins: [react(), tsconfigPaths()]
 })

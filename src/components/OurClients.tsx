@@ -3,7 +3,7 @@ import { twMerge } from 'tailwind-merge'
 import Button from './ui/Button'
 import OurClient1 from '@/assets/images/our-client1.png'
 import OurClient2 from '@/assets/images/our-client2.png'
-import Ellipse from '@/assets/images/ellipse.png'
+import Ellipse from '@/assets/images/our-work2.png'
 import vector2 from '@/assets/svgs/vector2.svg'
 
 interface Props {
