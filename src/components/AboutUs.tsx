@@ -14,29 +14,34 @@ export default function AboutUs({ className }: Props) {
 
   console.log(ref)
   return (
-    <div className={twMerge('flex px-68 relative', className)} id="about-us" ref={ref}>
-      {inView && (
-        <>
-          <div className="absolute bg-gradient-to-r from-[rgba(109,150,252,0.3)] to-[rgba(21,21,21,0)] h-full w-1/3 left-[-100px]"></div>
-          <img src={aboutUs} alt="about-us" className=" w-1/2 animate-fade-right" />
-        </>
-      )}
-      {inView && (
-        <div className="flex gap-6 flex-col w-1/2 animate-fade-left">
-          <p className="text-primary">ABOUT US</p>
-          <p className="text-5xl font-[700]">
-            We Bring <span className="text-primary ">Creative </span> Ideas <br /> To life.
-          </p>
-          <div className="block h-1 w-24 bg-white" />
-          <p className="text-primary"> We love Creating </p>
-          <p>
-            Lorem ipsumNeque porro quisquam est qui do lorem ipsum quia dolor sit amet, Neque porro elit NeDque porro
-            Lorem ipsum Neque porro Neque porro Neque porro quisquam est qui do lorem ipsum quia dolor sit amet, Lorem
-            ipsum Neque quis ipsum
-          </p>
-          <Button className="w-fit">READ MORE</Button>
-        </div>
-      )}
+    <div className={twMerge('flex xl:px-9  2xl:px-68 relative', className)} id="about-us" ref={ref}>
+      <img
+        src={aboutUs}
+        alt="about-us"
+        className={`absolute w-full sm:w-1/2 -z-20 ${inView ? 'animate-fade-right' : ''}`}
+      />
+      <div
+        className={`flex flex-col justify-center items-center text-center md:justify-start md:items-start md:text-left gap-6 xl:mt-36 w-full ml-auto sm:w-1/2  ${
+          inView ? 'animate-fade-left' : ''
+        }`}
+      >
+        <p className="text-primary">ABOUT US</p>
+        <p className="text-4xl lg:text-5xl  font-bold">
+          We Bring <span className="text-primary ">Creative</span>
+          <br />
+          Ideas To life.
+        </p>
+        <div className="block h-1 w-24 bg-white" />
+        <p className="text-primary"> We love Creating </p>
+        <p className="text-lg lg:text-2xl ">
+          Lorem ipsumNeque porro quisquam est qui do lorem ipsum quia dolor sit amet, Neque porro elit NeDque porro
+          Lorem ipsum Neque porro Neque porro Neque porro quisquam est qui do lorem ipsum quia dolor sit amet, Lorem
+          ipsum Neque quis ipsum
+        </p>
+        <Button className="w-fit">
+          <p className="text-sm lg:text-xl">READ MORE</p>
+        </Button>
+      </div>
     </div>
   )
 }
