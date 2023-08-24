@@ -22,9 +22,9 @@ function App() {
       <AboutUs className="mt-20 md:mt-48 lg:mt-70" />
       <OurServices className="mt-20 md:mt-48 lg:mt-60" />
       <SectionDetail className="mt-36" />
-      <OurWork className="mt-36 mb-28" />
-      <WhyUs className="mt-28" />
-      <OurClient className="mt-20 lg:mt-48" />
+      <OurWork className="mt-36 " />
+      <WhyUs className="pt-56 pb-20 lg:pb-48" />
+      <OurClient className="" />
       <Contact />
       <Footer className="mt-32" />
     </div>

@@ -15,12 +15,15 @@ export default function AboutUs({ className }: Props) {
   console.log(ref)
   return (
     <div
-      className={twMerge('grid grid-flow-row sm:grid-flow-col gap-12 sm:px-9 2xl:px-68 ', className)}
+      className={twMerge(
+        'grid grid-flow-row sm:grid-flow-col bg-gradient-liner-coner-whyus gap-12 sm:px-9 2xl:px-68 ',
+        className
+      )}
       id="why-us"
       ref={ref}
     >
       <div
-        className={`flex flex-col justify-center items-center text-center md:justify-start md:items-start md:text-left gap-6  mr-16 w-fit ${
+        className={`flex flex-col justify-center items-center text-center md:justify-start md:items-start md:text-left gap-6  pr-16 w-fit ${
           inView ? 'animate-fade-up' : ''
         }`}
       >

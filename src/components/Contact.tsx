@@ -53,7 +53,7 @@ export default function Contact({ className }: Props) {
           ))}
         </div>
       </div>
-      <div className="flex justify-center items-center xl:w-1/2 rounded-3xl bg-coner">
+      <div className="flex justify-center items-center xl:w-1/2  bg-gradient-liner-coner-contact">
         <form
           action=""
           className={`grid grid-flow-row bg-[#11182a] gap-5 w-full  h-auto p-9 xl:mr-44 2xl:ml-9 2xl:my-32 2xl:mr-80 rounded-3xl ${

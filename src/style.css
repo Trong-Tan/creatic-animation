@@ -2,7 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .bg-gradient-liner {
+.bg-gradient-liner {
   width: 100%;
-  background: linear-gradient(58deg, rgba(0, 0, 0, 0) 60%, rgba(55, 112, 255, 0.548) 170%);
-} */
+  background: linear-gradient(282deg, rgba(0, 0, 0, 0) 60%, rgba(55, 112, 255, 0.548) 170%);
+}
+
+.bg-gradient-liner-coner-whyus {
+  width: 100%;
+  background: linear-gradient(317deg, rgba(0, 0, 0, 0) 70%, rgba(55, 112, 255, 0.548) 120%),
+    linear-gradient(138deg, rgba(0, 0, 0, 0) 70%, rgba(55, 112, 255, 0.548) 120%);
+}
+.bg-gradient-liner-coner-contact {
+  width: 100%;
+  background: linear-gradient(38deg, rgba(0, 0, 0, 0) 70%, rgba(55, 112, 255, 0.548) 120%);
+}
+.bg-gradient-liner-coner-footer {
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 10%, rgba(55, 112, 255, 0.548) 290%);
+}
