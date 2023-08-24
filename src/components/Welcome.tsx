@@ -34,7 +34,7 @@ export default function Welcome({ className }: Props) {
       <img
         src={welcome}
         alt="welcome"
-        className=" absolute h-1/3 w-1/3 sm:h-fit sm:w-fit mt-32 sm:mt-56 right-0 top-0 "
+        className=" absolute h-auto w-auto sm:h-fit sm:w-fit mt-32 sm:mt-56 right-0 top-0 "
       />
       {/* </div> */}
     </div>
