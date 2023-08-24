@@ -19,7 +19,7 @@ function App() {
       */}
       <Header className=" mt-9" />
       <Welcome className="mt-32 lg:mt-46" />
-      <AboutUs className="mt-32 md:mt-48 lg:mt-70" />
+      <AboutUs className=" mt-32 md:mt-48 lg:mt-70" />
       <OurServices className="mt-32 md:mt-48 lg:mt-60" />
       <SectionDetail className="mt-36" />
       <OurWork className="mt-36 " />

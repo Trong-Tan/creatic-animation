@@ -18,10 +18,12 @@ export default function AboutUs({ className }: Props) {
       <img
         src={aboutUs}
         alt="about-us"
-        className={`absolute w-full bg-gradient-liner sm:w-1/2 xl:left-0 -z-20 ${inView ? 'animate-fade-right' : ''}`}
+        className={`absolute w-full bg-gradient-liner top-14 md:top-0 sm:w-1/2 xl:left-0 -z-20 ${
+          inView ? 'animate-fade-right' : ''
+        }`}
       />
       <div
-        className={`flex flex-col justify-center items-center text-center sm:justify-start sm:items-start sm:text-left gap-6 px-5 xl:mt-36 w-full sm:ml-auto sm:w-1/2  ${
+        className={`flex flex-col justify-center items-center text-center sm:justify-start sm:items-start mt-12 md:mt-0 sm:text-left gap-6 px-5 xl:mt-36 w-full sm:ml-auto sm:w-1/2  ${
           inView ? 'animate-fade-left' : ''
         }`}
       >
