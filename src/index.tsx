@@ -13,7 +13,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="text-xl font-pops">
+    <div className="text-xl font-pops overflow-x-hidden">
       {/* Màn của tấn chỉ là xl
       Màn của a sơn 2xl
       */}

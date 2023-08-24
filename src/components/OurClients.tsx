@@ -21,13 +21,13 @@ export default function OurClient({ className }: Props) {
       <div className=" hidden lg:block w-full">
         <img src={OurClient1} className={`w-full h-full ${inView ? 'animate-fade-right' : ''}`} alt="" />
       </div>
-      <div className={`flex flex-col just text-center w-fit px-24 pt-16 ${inView ? 'animate-fade-up' : ''}`}>
+      <div className={`flex flex-col just text-center w-fit xl:px-24 pt-16 ${inView ? 'animate-fade-up' : ''}`}>
         <div className={`flex flex-col justify-center items-center text-center `}>
           <p className="text-5xl font-bold ">
             WHAT<span className="text-primary"> OUR </span>
             <br /> CLIENTS SAY?
           </p>
-          <div className="bg-primary block w-36 h-1 mt-1 mb-6 " />
+          <div className="bg-primary block w-fit h-1 mt-1 mb-6 " />
         </div>
         <span className="text-white">TESTIMONIALS</span>
         <div className="p-9 bg-[#11182a] rounded-3xl mt-24">

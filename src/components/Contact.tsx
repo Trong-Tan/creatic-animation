@@ -38,7 +38,7 @@ export default function Contact({ className }: Props) {
           </p>
           <div className=" h-1 w-24 bg-white " />
         </div>
-        <p className="text-white w-96">
+        <p className="text-white w-auto">
           Lorem ipsum Neque porro quisquam est qui do lorem ipsum quia dolor sit amet, Neque porro elit NeDque porro
         </p>
         <div className="grid grid-flow-row gap-10">
@@ -53,25 +53,25 @@ export default function Contact({ className }: Props) {
           ))}
         </div>
       </div>
-      <div className="flex justify-center items-center rounded-3xl bg-coner">
+      <div className="flex justify-center items-center xl:w-1/2 rounded-3xl bg-coner">
         <form
           action=""
-          className={`grid grid-flow-row bg-[#11182a] gap-5 w-fit h-auto p-9 xl:mr-44 2xl:ml-9 2xl:my-32 2xl:mr-80 rounded-3xl ${
+          className={`grid grid-flow-row bg-[#11182a] gap-5 w-full  h-auto p-9 xl:mr-44 2xl:ml-9 2xl:my-32 2xl:mr-80 rounded-3xl ${
             inView ? 'animate-fade-up' : ''
           }`}
         >
           <label htmlFor="" className="font-normal font-pop text-base">
             YOUR NAME
           </label>
-          <input type="text" className="bg-transparent text-black  border border-gray-300 rounded-md w-96 h-12" />
+          <input type="text" className="bg-transparent text-black  border border-gray-300 rounded-md w-auto h-12" />
           <label htmlFor="" className="font-normal font-pop text-base">
             YOUR EMAIL
           </label>
-          <input type="text" className="bg-transparent text-black  border border-gray-300 rounded-md w-96 h-12" />
+          <input type="text" className="bg-transparent text-black  border border-gray-300 rounded-md w-auto h-12" />
           <label htmlFor="" className="font-normal font-pop text-base">
             YOUR MESSAGE
           </label>
-          <input type="textarea" className="bg-transparent text-black  border border-gray-300 rounded-md w-96 h-44" />
+          <input type="textarea" className="bg-transparent text-black  border border-gray-300 rounded-md w-auto h-44" />
           <Button className="w-fit">SENT MESSAGE</Button>
         </form>
       </div>
